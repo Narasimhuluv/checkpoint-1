@@ -48,7 +48,7 @@ table {
 }
 
 
-/* ------------css reset---------------------- */
+/* ------------css reset----end------------------ */
 /* -----------custom style-------------- */
 
 header{
@@ -72,6 +72,7 @@ header .color_green{
 }
 
 /* ------------main start--------------- */
+
 section{
     text-align: center;
     margin-top: 35px;
@@ -129,7 +130,7 @@ section hr{
     margin-top: 50px;
 }
 
-/* ----------------------------exercise2------------ */
+/* ---------exercise2--- start--------- */
 
 .Exercise2{
     width: 660px;
