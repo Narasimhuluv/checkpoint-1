@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------css reset----end------------------ */
+/* -----------custom style-------------- */
+
+header{
+    background-color: rgb(7,21,76);
+    height: 35px;
+    padding: 20px;
+}
+nav{
+    text-align: center;
+}
+
+header a{
+    font-size: 25px;
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header .color_green{
+    color: rgb(13, 241, 13);
+}
+
+/* ------------main start--------------- */
+
+section{
+    text-align: center;
+    margin-top: 35px;
+}
+section .heading{
+    font-size: 55px;
+}
+
+section h2{
+    font-size: 35px;
+    margin-top: 45px;
+}
+
+section .box{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #99D8CA;
+    border: 20px solid #5873e2;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 30px #90FFA9;
+    border-radius: 1px;
+}
+section .marker-container{
+    margin: 70px 15px 15px 15px; 
+    display: inline-block; 
+}
+
+section .circle{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:#99D8CA;
+    border: 1px solid black;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+section .circle2{
+    background-color:#0D1430;
+}
+ section .circle3{
+    background-color: #90FFA9;
+}
+
+section .circle4{
+    background-color: #5873E2;
+}
+
+
+section hr{
+    width: 800px;
+    border-style: dotted;
+    margin-top: 50px;
+}
+
+/* ---------exercise2--- start--------- */
+
+.Exercise2{
+    width: 660px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 25px;
+    /* display: inline-block; */  
+    font-size: 0;
+  
+}
+.Exercise2 .child_box{
+    width: 200px;
+    height: 180px;
+    background-color: silver;
+    display: inline-block;
+    margin: 10px;
+}
+
+.Exercise2-border .child_box{
+    outline: 2px solid black;
+}
