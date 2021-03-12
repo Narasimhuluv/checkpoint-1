@@ -148,3 +148,7 @@ section hr{
     display: inline-block;
     margin: 10px;
 }
+
+.Exercise2-border .child_box{
+    outline: 2px solid black;
+}
